@@ -20,7 +20,7 @@ First, set up the Ariadne VM development environment as per it's quick-start ins
     $ git clone --branch release/1.0.0 git@github.com:myplanetdigital/ariadne.git
     $ cd path/to/ariadne
     $ rake setup
-    $ rake init_project[myplanetdigital/ariadne-magento]
+    $ rake "init_project[myplanetdigital/ariadne-magento]"
     $ project=magento vagrant up # or `vagrant reload`
 
 This will set `project = magento` in `config/config.ini`, which will be used for future `vagrant` commands.
